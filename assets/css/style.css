@@ -23,7 +23,7 @@ nav{
   justify-content: center;
   color: white;
   grid-area: navbar;
-  background-color:blue;
+  background-color: #25527B;
   padding: 1rem;
 }
 
@@ -31,7 +31,7 @@ nav{
 
 aside{
   grid-area: sidebar;
-  background-color: aquamarine;
+  background-color: #E7E7E7;
   padding: 1rem;
 }
 
@@ -44,7 +44,7 @@ aside{
 
 main{
   grid-area: main;
-  background-color: aliceblue;
+  background-color: #E7E7E7;
   padding: 1rem;
 }
 
@@ -62,8 +62,15 @@ main{
   margin: 10px;
 }
 
+.producto p{
+  padding: 1rem;
+}
+
 .comprar{
-  
+  border-radius: 0%;
+  width: 100%;
+  background-color: #25527B;
+  color: white;
 }
 
 img{
@@ -76,7 +83,6 @@ img{
 footer{
   display: flex;
   grid-area: footer;
-  background-color: gray;
   padding: 1rem;
   justify-content: center;
 }

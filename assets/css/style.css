@@ -42,3 +42,8 @@ footer{
   background-color: gray;
   padding: 1rem;
 }
+
+.aside{
+  display: flex;
+  flex-direction: column;
+}
